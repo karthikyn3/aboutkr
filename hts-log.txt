@@ -1,0 +1,28 @@
+HTTrack3.48-22+htsswf+htsjava launched on Sat, 17 Sep 2016 15:50:27 at http://www.hihayk.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.hihayk.com/ -O1 "C:\My Web Sites\webs" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:52:35	Warning: 	file not stored in cache due to bogus state (broken size, expected 16435909 got 1182): www.hihayk.com/assets/images/projects/team.mp4
+15:55:47	Error: 	"Multiple Choices" (300) at link www.hihayk.com/gladiator.html (from www.hihayk.com/)
+15:55:47	Warning: 	Retry after error -4 (Incorrect length (67469 Bytes, 86686 expected)) at link www.hihayk.com/assets/fonts/circular/CircularStd-Medium.eot? (from www.hihayk.com/css/main.css)
+15:55:51	Warning: 	Retry after error -4 (Incorrect length (69732 Bytes, 86448 expected)) at link www.hihayk.com/assets/fonts/circular/CircularStd-Medium.ttf (from www.hihayk.com/css/main.css)
+15:55:56	Warning: 	Retry after error -4 (Incorrect length (297637 Bytes, 353013 expected)) at link www.hihayk.com/assets/images/projects/common-sporting-1.jpg (from www.hihayk.com/common-sporting.html)
+15:55:56	Warning: 	Retry after error -4 (Incorrect length (262977 Bytes, 313249 expected)) at link www.hihayk.com/assets/images/projects/common-sporting-3.jpg (from www.hihayk.com/common-sporting.html)
+15:56:04	Warning: 	Retry after error -4 (Incorrect length (1182 Bytes, 16435909 expected)) at link www.hihayk.com/assets/images/projects/team.mp4 (from www.hihayk.com/quipu.html)
+15:59:34	Warning: 	Retry after error -4 (Incorrect length (3807129 Bytes, 3868140 expected)) at link www.hihayk.com/assets/images/projects/team.ogg (from www.hihayk.com/quipu.html)
+15:59:34	Warning: 	Retry after error -4 (No data (connection closed)) at link www.hihayk.com/assets/images/projects/quipu-3.png (from www.hihayk.com/quipu.html)
+15:59:34	Warning: 	Retry after error -4 (Incorrect length (390927 Bytes, 430793 expected)) at link www.hihayk.com/assets/images/projects/quipu-10.png (from www.hihayk.com/quipu.html)
+15:59:41	Warning: 	Retry after error -4 (Incorrect length (270721 Bytes, 343251 expected)) at link www.hihayk.com/assets/images/projects/book.jpg (from www.hihayk.com/book-cover.html)
+15:59:45	Warning: 	Retry after error -4 (Incorrect length (660334 Bytes, 720875 expected)) at link www.hihayk.com/assets/images/projects/bellonch-2.png (from www.hihayk.com/bellonch.html)
+16:01:57	Warning: 	file not stored in cache due to bogus state (broken size, expected 16435909 got 5472926): www.hihayk.com/assets/images/projects/team.mp4
+16:01:57	Warning: 	Retry after error -4 (Incorrect length (5472926 Bytes, 16435909 expected)) at link www.hihayk.com/assets/images/projects/team.mp4 (from www.hihayk.com/quipu.html)
+16:01:58	Warning: 	file not stored in cache due to bogus state (broken size, expected 16435909 got 5474047): www.hihayk.com/assets/images/projects/team.mp4
+16:03:01	Error: 	"Incorrect length (5474047 Bytes, 16435909 expected)" (-4) after 2 retries at link www.hihayk.com/assets/images/projects/team.mp4 (from www.hihayk.com/quipu.html)
+16:03:01	Warning: 	Retry after error -4 (No data (connection closed)) at link www.hihayk.com/workingon/codepen/fonts/circular/CircularStd-Book.otf (from www.hihayk.com/workingon/codepen/style/main.css)
+
+HTTrack Website Copier/3.48-22 mirror complete in 12 minutes 41 seconds : 116 links scanned, 101 files written (15808230 bytes overall) [21205786 bytes received at 27865 bytes/sec], 154954 bytes transferred using HTTP compression in 11 files, ratio 28%, 2.2 requests per connection
+(2 errors, 15 warnings, 0 messages)
