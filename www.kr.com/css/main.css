@@ -1351,7 +1351,11 @@ header {
   @media only screen and (max-width: 700px) {
     .logo {
       font-size: 12px;
-      margin-left: 1rem; } }
+      margin-left: 1rem; }
+
+    /*.logo {
+      font-size: 12px;
+      margin-left: 1rem; } */}
   .logo .sq {
     position: absolute;
     width: 1em;
@@ -1362,17 +1366,20 @@ header {
   .logo .sq1 {
     -webkit-animation: sq1-in .4s; }
   .logo .sq2 {
-    left: 2em;
+    left: 1.7em;
+    top: .3em;
     -webkit-animation: sq1-in .6s; }
   .logo .sq3 {
     -webkit-animation: sq1-in .8s;
     top: 1em; }
   .logo .sq4 {
     -webkit-animation: sq1-in 1s;
-    left: 1em;
-    top: 1em; }
+    font-size: 10px;
+    left: 1.4em;
+    top: 1.7em; }
   .logo .sq5 {
     -webkit-animation: sq1-in 1.2s;
+    background-color: #5d5d5d;
     left: 2em;
     top: 1em; }
   .logo .sq6 {
@@ -1385,7 +1392,7 @@ header {
     top: 2em; }
   .logo .sq8 {
     -webkit-animation: sq1-in 1.8s;
-    left: 2em;
+    left: 1.7em;
     top: 2em; }
   .logo .sq9 {
     -webkit-animation: sq1-in 2s;
